@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Techflow</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#f2f2f2;
+}
+
+.main{
+display:flex;
+height:100vh;
+}
+
+.sidebar{
+width:200px;
+background:#333;
+color:white;
+padding-top:20px;
+}
+
+.logo{
+text-align:center;
+font-size:24px;
+margin-bottom:20px;
+}
+
+.sidebar a{
+display:block;
+color:white;
+padding:12px;
+text-decoration:none;
+}
+
+.sidebar a:hover{
+background:blue;
+}
+
+.content{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+width:300px;
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 0 10px gray;
+}
+
+input,select{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+/* Register button blue */
+input[type="submit"]{
+background-color:#007BFF;
+color:white;
+border:none;
+cursor:pointer;
+font-size:16px;
+}
+
+input[type="submit"]:hover{
+background-color:#0056b3;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="main">
+
+<div class="sidebar">
+
+<div class="logo">TechFlow</div>
+
+<a href="lab performence -1.html">Login</a>
+<a href="register.html">Registration</a>
+
+</div>
+
+<div class="content">
+
+<div class="container">
+
+<h2>Create Account</h2>
+
+<form>
+
+<label>Email Address</label>
+<input type="email">
+
+<label>Password</label>
+<input type="password">
+
+<label>Gender</label>
+<select>
+<option>Male</option>
+<option>Female</option>
+</select>
+
+<input type="submit" value="Register">
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
